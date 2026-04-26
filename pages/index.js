@@ -234,8 +234,8 @@ export default function Home() {
         <p style={{color:'var(--muted)',fontSize:14,marginBottom:28}}>We accept Mobile Money and Vodafone Cash. Fast, secure, and hassle-free.</p>
         <div style={{display:'grid',gridTemplateColumns:'1fr 1fr',gap:20}}>
           {[
-            {icon:'💛',bg:'rgba(255,204,0,0.12)',title:'MTN Mobile Money',desc:'Send payment to our MoMo number. Use your phone number as the reference.',num:'055 XXX XXXX'},
-            {icon:'❤️',bg:'rgba(226,0,26,0.12)',title:'Vodafone Cash',desc:'Send payment to our Vodafone Cash number. Use your phone number as the reference.',num:'020 XXX XXXX'},
+            {icon:'💛',bg:'rgba(255,204,0,0.12)',title:'MTN Mobile Money',desc:'Send payment to our MoMo number. Use your phone number as the reference.',num:'059 923 0475'},
+            {icon:'❤️',bg:'rgba(226,0,26,0.12)',title:'Vodafone Cash',desc:'Send payment to our Vodafone Cash number. Use your phone number as the reference.',num:'050 063 9478'},
           ].map(p => (
             <div key={p.title} style={{background:'var(--dark2)',border:'1px solid var(--border)',borderRadius:14,padding:24,display:'flex',alignItems:'flex-start',gap:16}}>
               <div style={{width:48,height:48,borderRadius:12,background:p.bg,display:'flex',alignItems:'center',justifyContent:'center',fontSize:22,flexShrink:0}}>{p.icon}</div>
@@ -261,8 +261,8 @@ export default function Home() {
           <p style={{fontSize:13,color:'var(--muted)',marginTop:6}}>Affordable data bundles for all networks in Ghana.<br/>© {new Date().getFullYear()} SwiftData. All rights reserved.</p>
         </div>
         <div style={{display:'flex',gap:12}}>
-          <a href="tel:0200000000" style={{display:'flex',alignItems:'center',gap:8,background:'var(--card)',border:'1px solid var(--border)',color:'var(--text)',padding:'10px 18px',borderRadius:50,fontSize:13,fontWeight:500}}>📞 Call Us</a>
-          <a href="https://wa.me/233200000000" target="_blank" rel="noreferrer" style={{display:'flex',alignItems:'center',gap:8,background:'rgba(34,197,94,0.1)',border:'1px solid rgba(34,197,94,0.3)',color:'var(--green)',padding:'10px 18px',borderRadius:50,fontSize:13,fontWeight:500}}>💬 WhatsApp</a>
+          <a href="tel:0500639478" style={{display:'flex',alignItems:'center',gap:8,background:'var(--card)',border:'1px solid var(--border)',color:'var(--text)',padding:'10px 18px',borderRadius:50,fontSize:13,fontWeight:500}}>📞 Call Us</a>
+          <a href="https://wa.me/+233500639478" target="_blank" rel="noreferrer" style={{display:'flex',alignItems:'center',gap:8,background:'rgba(34,197,94,0.1)',border:'1px solid rgba(34,197,94,0.3)',color:'var(--green)',padding:'10px 18px',borderRadius:50,fontSize:13,fontWeight:500}}>💬 WhatsApp</a>
         </div>
       </footer>
 
